@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'PeydaWebFaNum-Bold'; 
+  src: url('/fonts/PeydaWebFaNum-Bold.woff'); 
+} 
+body {
+  font-family: 'PeydaWebFaNum-Bold';
+  background-color: #FFFCEF;
+  direction: ltr;
+  height: 1500px;
+}
+
+p {
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #1B4C49;
+}
+
+h1 , h2 , h3 , h4 , h5{
+  margin-bottom: 0.5em;
+  color: #1B4C49;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 25px;
+  border-radius: 4px;
+}
+
+.header-area {
+  position: relative;
+  height: 25vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repear;
+  background-size: cover;
+}
+
+.navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: background 0.6s ease-in;
+  z-index: 99999;
+  background-color: #FF7F5B;
+  height: 120px;
+}
+
+.navbar #header {
+  margin-top: 150px;
+}
+
+/*.navbar.fixed-top {
+  position: fixed;
+  -webkit-animation: navbar-animation 0.6s;
+  transition: all 0.3s ease-in;
+  animation: navbar-animation 0.6s;
+  background-color: #FF7F5B;
+}*/
+
+.navbar .navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2.0rem;
+}
+
+.navbar .navbar-brand img {
+  border-radius:700px;
+  margin-top: 3px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+  color: #FFFCEF;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 50px;
+  margin-top: 90px;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #FF7F5B;
+  background-color: #FFFCEF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dot {
+  height: 70px;
+  width: 70px;
+  background-color: #1B4C49;
+  border-radius: 50%;
+  display: inline-block;
+  border: #FFFCEF solid 3px;
+  outline: #FF7F5B solid 4px;
+  margin-top: -40px;
+}
+
+.dot1 {
+  height: 30px;
+  width: 30px;
+  background-color: #FFFCEF;
+  border-radius: 50%;
+  display: inline-block;
+  border: #FFFCEF solid 4px;
+  margin-top: -40px;
+}
+
+
+#swiper {
+  margin-left: 10%;
+  text-align: center;
+}
+
+#about {
+  text-align: right;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 40px;
+  margin-top: 50px;
+  border-radius: 20px;
+  height: 200px;
+}
+
+#features {
+  text-align: right;
+  padding-top: 60px;
+  margin-top: 40px;
+  border-radius: 20px;
+  height: 400px;
+}
+
+#features h5 {
+  padding-right: 90px;
+}
+
+#features img {
+  margin-top: 30px;
+  margin-right: 105px;
+}
+
+#features h2 {
+  padding-right: 90px;
+}
+
+#plans {
+  text-align: right;
+  padding-top: 60px;
+  margin-top: 40px;
+  border-radius: 20px;
+  height: 350px;
+}
+
+#plans h2 {
+  padding-right: 90px;
+  margin-bottom: 30px;
+}
+
+#plans h5 {
+  padding-right: 90px;
+}
+
+#basic , #pro , #advanced {
+  background-color: #D2EBCD;
+  height: 400px;
+  margin-inline-start: 30px;
+  margin-right: 90px;
+  border-radius: 10px;
+  padding-top: 30px;
+}
